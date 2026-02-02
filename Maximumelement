@@ -1,0 +1,7 @@
+import java .util.*;
+static int max(int[] a){
+int m =a[0];
+for (int x :a) if (x > m)
+m =x;
+return m;
+}
