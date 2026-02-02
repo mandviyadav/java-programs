@@ -1,0 +1,7 @@
+import java.util.*;
+static double average(int[] a)
+  {
+return (double) sum(a) /
+a.length;
+}
+
