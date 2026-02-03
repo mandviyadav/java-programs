@@ -1,0 +1,5 @@
+int e=0,o=0;
+for(int x:a){
+if(x%2==0) e++; else o++;
+}
+System.out.println(e+""+o);
