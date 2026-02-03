@@ -1,0 +1,3 @@
+int sum=0;
+for(int i=o;i<n;i++) sum+=a[i];
+System.out.println(sum);
