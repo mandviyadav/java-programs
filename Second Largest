@@ -1,0 +1,7 @@
+int
+f=Integer.MIN_VALUE,s=Integer. MIN_VALUE;
+for(int x:a){
+if(x>f){s=f;f=x;}
+else if(x>s && x!=f) s=x;
+}
+System.out.println(s);
