@@ -1,0 +1,4 @@
+int p=0,ne=0;
+for(int x:a){
+if(x>=0) p++; else ne++;
+}
