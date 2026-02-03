@@ -1,0 +1,6 @@
+int
+f=Integer.MAX_VALUE,s=Integer .MAX_VALUE;
+for(int x:a){
+if(x<f){s=f;f=x;}
+else if(x<s && x!=f) s=x;
+}
